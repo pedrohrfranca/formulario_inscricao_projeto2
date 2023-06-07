@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <img src="https://img2.gratispng.com/20180531/uvc/kisspng-computer-icons-google-docs-form-android-documents-5b10128e635752.8619398315277799824069.jpg" alt="emoji de formulário">
+            <h1>Fomulário de Inscrição</h1>
+        </header>
+        <form id="form-participante" >
+            <input type="text" id="nome-participante" required placeholder="Nome" />
+            <input type="tel" id="telefone-participante" required placeholder="Telefone" />
+            <button type="submit">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+    <thead>
+        <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>João</td>
+        <td><a href="tel:+55123456789">(12) 3456-789</a></td>
+        </tr>
+        <tr>
+        <td>Maria</td>
+        <td><a href="tel:+551098765432">(10) 9876-5432</a></td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
